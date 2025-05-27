@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% if title %}
+    <title>{{ title }} - 微型部落格</title>
+    {% else %}
+    <title> 歡迎來到微型部落格！</title>
+    {% endif %}
+</head>
+<body>
+  <div> 微型部落格： <a href="/index"> 首頁 </a></div>
+  <hr>
+  {% block content %}{% endblock %}
+</body>
+<body>
+
+</body>
+</html>
